@@ -1,5 +1,4 @@
 body {
-  padding: 0 156px;
   font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
@@ -30,8 +29,8 @@ img {
   display: block;
 }
 .container {
-  max-width: 1140px;
-  padding: 0;
+  max-width: 1158px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 .link {
@@ -93,11 +92,21 @@ img {
 /*-------- header --------*/
 
 .header {
+  border-bottom: 1px solid #e7e9fc;
   background: #fff;
 }
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
 .header__navigation {
+  display: flex;
+  align-items: center;
 }
 .header__logo {
+  margin-right: 78px;
 }
 .header__logo--color {
   color: #2e2f42;
@@ -124,6 +133,9 @@ img {
   font-style: normal;
 }
 .header__menu {
+  display: flex;
+  padding: 24px 0;
+  gap: 40px;
 }
 
 /*-------- main --------*/
