@@ -28,6 +28,11 @@ p {
 img {
   display: block;
 }
+.page__container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -141,6 +146,7 @@ img {
 /*-------- main --------*/
 
 .main {
+  flex-grow: 1;
 }
 
 /*-------- section-1 --------*/
