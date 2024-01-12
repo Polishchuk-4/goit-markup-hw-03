@@ -224,9 +224,9 @@ img {
   text-align: center;
 }
 .section-three__image {
+  margin-bottom: 32px;
 }
 .section-three__title-three {
-  padding-top: 32px;
   margin-bottom: 8px;
 }
 .section-three__text {
@@ -236,19 +236,30 @@ img {
 /*-------- section-4 --------*/
 
 .section-four {
+  padding: 120px 0;
 }
 .section-four__title-two {
+  margin-bottom: 72px;
   text-align: center;
 }
 .section-four__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .section-four__column {
-  border: 1px solid #e7e9fc;
+  flex-basis: calc((100% - 48px) / 3);
   background: #fff;
 }
 .section-four__image {
 }
+.section-four__row {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: 0;
+}
 .section-four__title-three {
+  margin-bottom: 8px;
 }
 .section-four__text {
 }
