@@ -247,7 +247,7 @@ img {
 .section-four__list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 .section-four__column {
   flex-basis: calc((100% - 48px) / 3);
