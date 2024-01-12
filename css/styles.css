@@ -215,22 +215,24 @@ img {
 }
 .section-three__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 24px;
 }
 .section-three__column {
   flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  text-align: center;
 }
 .section-three__image {
-  margin-bottom: 32px;
+}
+.section-three__row {
+  padding: 32px 0;
+  text-align: center;
 }
 .section-three__title-three {
   margin-bottom: 8px;
 }
 .section-three__text {
-  padding-bottom: 32px;
 }
 
 /*-------- section-4 --------*/
