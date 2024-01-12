@@ -273,8 +273,8 @@ img {
   background: #2e2f42;
 }
 .footer__logo {
-  display: block;
-  margin-bottom: 17.5px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer__logo--color {
   color: #f4f4fd;
