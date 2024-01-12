@@ -267,14 +267,18 @@ img {
 /*-------- footer --------*/
 
 .footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 .footer__logo {
+  display: block;
+  margin-bottom: 17.5px;
 }
 .footer__logo--color {
   color: #f4f4fd;
 }
 .footer__text {
+  width: 264px;
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
