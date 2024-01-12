@@ -206,22 +206,31 @@ img {
 /*-------- section-3 --------*/
 
 .section-three {
+  padding: 120px 0;
   background: #f4f4fd;
-  text-align: center;
 }
 .section-three__title-two {
+  text-align: center;
+  margin-bottom: 72px;
 }
 .section-three__list {
+  display: flex;
+  gap: 24px;
 }
 .section-three__column {
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
   background: #fff;
   text-align: center;
 }
 .section-three__image {
 }
 .section-three__title-three {
+  padding-top: 32px;
+  margin-bottom: 8px;
 }
 .section-three__text {
+  padding-bottom: 32px;
 }
 
 /*-------- section-4 --------*/
