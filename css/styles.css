@@ -190,14 +190,12 @@ img {
 .section-two {
   padding: 120px 0;
 }
-.section-two__title-two {
-}
 .section-two__list {
   display: flex;
-  gap: 8px;
+  gap: 24px;
 }
 .section-two__column {
-  flex-basis: calc((100% - 24px) / 3);
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .section-two__title-three {
   margin-bottom: 8px;
